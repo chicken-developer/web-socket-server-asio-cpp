@@ -5,9 +5,9 @@ CMakeFiles/ws_server_entry_point.dir/main.cpp.o
  /home/dev/Desktop/Projects/game-master-server/asio_compatibility.hpp
  /home/dev/Desktop/Projects/game-master-server/client_ws.hpp
  /home/dev/Desktop/Projects/game-master-server/crypto.hpp
- /home/dev/Desktop/Projects/game-master-server/game_server_endpoint.hpp
  /home/dev/Desktop/Projects/game-master-server/main.cpp
  /home/dev/Desktop/Projects/game-master-server/mutex.hpp
+ /home/dev/Desktop/Projects/game-master-server/server_core.hpp
  /home/dev/Desktop/Projects/game-master-server/server_ws.hpp
  /home/dev/Desktop/Projects/game-master-server/status_code.hpp
  /home/dev/Desktop/Projects/game-master-server/utility.hpp

@@ -4,9 +4,9 @@
 CMakeFiles/ws_server_entry_point.dir/main.cpp.o: ../asio_compatibility.hpp
 CMakeFiles/ws_server_entry_point.dir/main.cpp.o: ../client_ws.hpp
 CMakeFiles/ws_server_entry_point.dir/main.cpp.o: ../crypto.hpp
-CMakeFiles/ws_server_entry_point.dir/main.cpp.o: ../game_server_endpoint.hpp
 CMakeFiles/ws_server_entry_point.dir/main.cpp.o: ../main.cpp
 CMakeFiles/ws_server_entry_point.dir/main.cpp.o: ../mutex.hpp
+CMakeFiles/ws_server_entry_point.dir/main.cpp.o: ../server_core.hpp
 CMakeFiles/ws_server_entry_point.dir/main.cpp.o: ../server_ws.hpp
 CMakeFiles/ws_server_entry_point.dir/main.cpp.o: ../status_code.hpp
 CMakeFiles/ws_server_entry_point.dir/main.cpp.o: ../utility.hpp

@@ -1,9 +1,10 @@
 #include "client_ws.hpp"
 #include "server_ws.hpp"
-#include "game_server_endpoint.hpp"
+#include "server_core.hpp"
 #include <future>
 
 using namespace std;
+using namespace GameMasterServer;
 
 using WsServer = GameMasterServer::SocketServer<GameMasterServer::WS>;
 using WsClient = GameMasterServer::SocketClient<GameMasterServer::WS>;
@@ -17,7 +18,7 @@ int main() {
 
     echo.on_message = [](shared_ptr<WsServer::Connection> connection, shared_ptr<WsServer::InMessage> in_message) {
         //auto out_message = in_message->string();
-        GameServerEntryPointHandler static messageHandler;
+        GameServerEntryPoint static messageHandler;
         auto out_message = messageHandler.HandleInput(in_message);
         cout << "Server: Message received: \"" << out_message << "\" from " << connection.get() << endl;
         cout << "Server: Sending message \"" << out_message << "\" to " << connection.get() << endl;
@@ -61,7 +62,7 @@ int main() {
 
     auto &echo_all = server.endpoint["^/echo_all/?$"];
     echo_all.on_message = [&server](shared_ptr<WsServer::Connection> /*connection*/, shared_ptr<WsServer::InMessage> in_message) {
-        GameServerEntryPointHandler static messageHandler;
+        GameServerEntryPoint static messageHandler;
         auto out_message = messageHandler.HandleInput(in_message);
 
         // echo_all.get_connections() can also be used to solely receive connections on this endpoint

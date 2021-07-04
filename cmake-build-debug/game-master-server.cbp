@@ -388,10 +388,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/dev/Desktop/Projects/game-master-server/game_server_endpoint.hpp">
-			<Option target="ws_server_entry_point"/>
-		</Unit>
 		<Unit filename="/home/dev/Desktop/Projects/game-master-server/main.cpp">
+			<Option target="wss_server_entry_point"/>
+			<Option target="ws_server_entry_point"/>
+			<Option target="swss_parse_test"/>
+			<Option target="swss_crypto_test"/>
+			<Option target="swss_io_test"/>
+		</Unit>
+		<Unit filename="/home/dev/Desktop/Projects/game-master-server/server_core.hpp">
 			<Option target="wss_server_entry_point"/>
 			<Option target="ws_server_entry_point"/>
 			<Option target="swss_parse_test"/>

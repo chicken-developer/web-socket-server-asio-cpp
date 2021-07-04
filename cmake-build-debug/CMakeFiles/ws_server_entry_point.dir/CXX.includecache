@@ -62,31 +62,29 @@ openssl/md5.h
 openssl/sha.h
 -
 
-/home/dev/Desktop/Projects/game-master-server/game_server_endpoint.hpp
-client_ws.hpp
-/home/dev/Desktop/Projects/game-master-server/client_ws.hpp
-server_ws.hpp
-/home/dev/Desktop/Projects/game-master-server/server_ws.hpp
-future
--
-server_ws.hpp
-/home/dev/Desktop/Projects/game-master-server/server_ws.hpp
-game_server_endpoint.hpp
-/home/dev/Desktop/Projects/game-master-server/game_server_endpoint.hpp
-
 /home/dev/Desktop/Projects/game-master-server/main.cpp
 client_ws.hpp
 /home/dev/Desktop/Projects/game-master-server/client_ws.hpp
 server_ws.hpp
 /home/dev/Desktop/Projects/game-master-server/server_ws.hpp
-game_server_endpoint.hpp
-/home/dev/Desktop/Projects/game-master-server/game_server_endpoint.hpp
+server_core.hpp
+/home/dev/Desktop/Projects/game-master-server/server_core.hpp
 future
 -
 
 /home/dev/Desktop/Projects/game-master-server/mutex.hpp
 mutex
 -
+
+/home/dev/Desktop/Projects/game-master-server/server_core.hpp
+client_ws.hpp
+/home/dev/Desktop/Projects/game-master-server/client_ws.hpp
+server_ws.hpp
+/home/dev/Desktop/Projects/game-master-server/server_ws.hpp
+future
+-
+server_ws.hpp
+/home/dev/Desktop/Projects/game-master-server/server_ws.hpp
 
 /home/dev/Desktop/Projects/game-master-server/server_ws.hpp
 asio_compatibility.hpp
